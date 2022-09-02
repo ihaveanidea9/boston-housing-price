@@ -22,7 +22,7 @@ def index():
 
 @app.route('/about')
 def about():
-    return render_template('about.html', messages='About Page')
+    return render_template('about.html', messages='About Page !!')
 
 
 @app.route('/predict', methods=['POST'])
